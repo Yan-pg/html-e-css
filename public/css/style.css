@@ -1,0 +1,292 @@
+body {
+        width: 100%;
+        margin: 0;
+        position: relative;
+    }
+    #conteiner {
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo {
+        margin-left: 170px;
+        margin-top: 60px;
+    }
+    .busca a input{
+        background-image: url(lupa.png);
+        background-repeat: no-repeat;
+        background-position: 96%;
+        width:500px;
+        height: 30px;
+        margin-right: 5px;
+        margin-top: 70px;  
+        border-radius: 10px;
+        border: 1.2px solid #606061; 
+    }
+    .cabeçalho nav{
+        margin-right: 170px;
+        display: flex;
+        list-style: none;
+        margin-top: 40px;
+        margin-right: 170px;
+        
+    }
+    .cabeçalho nav li {
+        padding: 30px;
+    }
+    .nomes {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        font: bold 13pt arial;
+    }
+    .nomes a{
+        color: black;
+        text-decoration: none;
+        padding-left: 120px;
+    }
+    .nomes a:hover {
+
+        color: #00AFEF;
+    }
+    .nomes ul {
+        display: flex;
+        list-style: none;
+    }
+    .listra {
+        background: #EC268F;
+        height: 5px;
+        color: white;
+        margin-top: 10px;
+    }
+
+    .img-01 {
+        margin-left: 170px;
+        float: left;
+    }
+    #contente {
+        display: flex;
+        justify-content: space-between;
+    }   
+    .frete {
+        display: flex;
+        margin-left: 170px;
+    }
+    .frete img {
+        width: 84px;
+        height: 50px;
+        margin-top: 30px;
+    }
+    .frete h2 {
+        padding-top: 27px;
+        padding-left: 13px;
+        font: normal 15px arial;
+        margin: 0;
+        color: #606061;
+    }
+    .frete p {
+        padding-left: 13px;
+        margin: 0;
+        font: normal 13px arial;
+        color: #606061;
+    }
+    .text {
+        display: flex;
+    }
+    .text img {
+        width: 55px;
+        height: 55px;
+        margin-top: 25px;
+    }
+    .text h2 {
+        padding-top: 27px;
+        padding-left: 13px;
+        font: normal 15px arial;
+        margin: 0;
+        color: #606061;
+    }
+    .text p {
+        padding-left: 13px;
+        margin: 0;
+        font: normal 13px arial;
+        color: #606061;
+    }
+    .cartao {
+        display: flex;
+        margin-right: 170px;
+    }
+    .cartao img {
+        width: 55px;
+        height: 55px;
+        margin-top: 25px;
+    }
+    .cartao h2 {
+        padding-top: 27px;
+        padding-left: 13px;
+        font: normal 15px arial;
+        margin: 0;
+        color: #606061;
+    }
+    .cartao p {
+        padding-left: 13px;
+        font: normal 13px arial;
+        color: #606061;
+    }
+    #card-grid {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+    }
+    #card-grid p {
+        font: normal 13px arial;
+        margin: 0;
+    }
+    #card-grid h1 {
+        margin-left: 60px;
+        color: #00AFEF;
+        font: bold 23px arial;
+    }
+    #card-grid button {
+    margin-left:50px;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    background: none;
+    color: #00AFEF;
+    border: 1px solid #00AFEF;
+    cursor: pointer;
+    }
+    #card-grid button:hover {
+        background: rgb(235, 233, 233);
+    }
+    .card-01 {
+        margin-left: 170px;
+    }
+    .card-03 {
+        margin-right: 170px;
+    }
+    #banner-grid {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+    #banner-grid p {
+        font: normal 13px arial;
+        margin: 0;
+    }
+    #banner-grid h1 {
+        margin-left: 35px;
+        color: #00AFEF;
+        font: bold 23px arial;
+    }
+    #banner-grid button {
+        margin-left:30px;
+        width: 120px;
+        height: 30px;
+        border-radius: 5px;
+        background: none;
+        color: #00AFEF;
+        border: 1px solid #00AFEF;
+        cursor: pointer;
+    }
+    #banner-grid button:hover {
+        background: rgb(235, 233, 233);
+    }
+    .banner-01 {
+        margin-left: 170px;
+    }
+    .banner-03 {
+        margin-right: 170px;
+    }
+    #camiseta-grid {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+    #camiseta-grid p {
+        font: normal 13px arial;
+        margin: 0;
+    }
+    #camiseta-grid h1 {
+        margin-left: 45px;
+        color: #00AFEF;
+        font: bold 23px arial;
+    }
+    #camiseta-grid button {
+        margin-left: 40px;
+        width: 120px;
+        height: 30px;
+        border-radius: 5px;
+        background: none;
+        color: #00AFEF;
+        border: 1px solid #00AFEF;
+        cursor: pointer;
+    }
+    #camiseta-grid button:hover {
+        background: rgb(235, 233, 233);
+    }
+    .camiseta-01 {
+        margin-left: 170px;
+    }
+    .camiseta-03 {
+        margin-right: 140px;
+    }
+    #caneca-grid {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+    #caneca-grid p {
+        font: normal 13px arial;
+        margin: 0;
+    }
+    #caneca-grid h1 {
+        margin-left: 50px;
+        color: #00AFEF;
+        font: bold 23px arial;
+    }
+    #caneca-grid button {
+        margin-left: 40px;
+        width: 120px;
+        height: 30px;
+        border-radius: 5px;
+        background: none;
+        color: #00AFEF;
+        border: 1px solid #00AFEF;
+        cursor: pointer;
+    }
+    #caneca-grid button:hover {
+        background: rgb(235, 233, 233);
+    }
+    .caneca-01 {
+        margin-left: 170px;
+    }
+    .caneca-03 {
+        margin-right: 140px;
+    }
+    #page-down {
+        background: rgb(241, 241, 241);
+        height: 200px;
+        display: flex;
+        margin-top: 100px;
+    }
+    .page-01 {
+        margin-left: 170px;
+    }
+    .page-01 h2 {
+        margin-left: 35px;
+    }
+    .page-01 ul {
+        list-style: none;
+    }
+    .page-01 a {
+        text-decoration: none;
+    }
+    .page-02 {
+        margin-left: 200px;
+    }
+    .page-02 h2 {
+        margin-left: 30px;
+    }
+    .page-02 ul {
+        display: flex;
+    }

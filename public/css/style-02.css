@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: rgb(224, 224, 223);
+}
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: #fff;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, .1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+.box h2 {
+    margin: 0 0 40px;
+    padding: 0;
+    color: #00AFEF;
+    text-transform: uppercase;
+}
+.box input {
+    padding: 10px 0;
+    margin-bottom: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #999;
+}
+.box button {
+    border: none;
+    cursor: pointer;
+    background: #00AFEF;
+    color: #fff;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 30px;
+    margin-left: 50px;
+}
+.box form div {
+    position: relative;
+}
+.box form div label {
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    margin-right: 200px;
+    pointer-events: none;
+    color: #999;
+    transition: .5s;
+}
+.box input:focus ~ label, .box input:valid ~ label {
+    top: -12px;
+    left: 0;
+    color: #00AFEF;
+    font-size: 12px;
+    font-weight: bold;
+}
+.box input:focus, .box input:valid {
+    border-bottom: 2px solid #00AFEF;
+}
+.conta p{ 
+    font: normal 11pt arial;
+    margin-left: 100px;
+}
+.conta a {
+    font: normal 11pt arial;
+    margin-left: 110px;
+}
